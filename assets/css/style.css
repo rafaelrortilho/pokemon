@@ -1,0 +1,73 @@
+body {
+  background-image: url(/assets/img/raio.png),
+  url(/assets/img/yveltal\ background.png);
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+  max-width: 100%;
+  height: 100vh;
+  margin-right: 10%;
+  margin-bottom: 970px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: sans-serif;
+}
+img {
+  display: inline-block;
+  margin-top: 640px;
+  width: auto;
+  height: auto;
+}
+#container {
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+h1 {
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+p {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 40px;
+  opacity: 1;
+}
+
+input,
+button {
+  display: block;
+  width: 450px;
+  padding: 30px;
+  font-size: 17px;
+  border-radius: 16px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 390px;
+}
+
+button {
+  border: none;
+  background-color: rgb(128, 20, 20);
+  color: rgb(255, 255, 255);
+  transition: filter 0.2s;
+}
+
+/* pseudo-class */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#respostas {
+  margin-top: 30px;
+}
+#respostas div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
